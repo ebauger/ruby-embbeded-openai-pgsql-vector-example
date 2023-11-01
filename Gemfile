@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dotenv'
+gem 'pg'
+gem 'json'
+gem 'rbs'
+gem 'debug'
+gem 'terminal-table'
