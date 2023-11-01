@@ -1,0 +1,35 @@
+# Ignore local configuration files
+/config/*.yml
+/config/*.local
+
+# Ignore installed gems
+/vendor/bundle/
+/vendor/ruby/
+
+# Ignore specific environment configurations
+/.env
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Ignore Mac OS X specific files
+.DS_Store
+
+# Ignore RubyMine project directory
+.idea/
+
+# Ignore temporary files from text editors
+*.swp
+*~
+*.sublime*
+
+# Ignore other unneeded files
+/log/*
+/tmp/*
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/assets/
+
+# Ignore all logfiles and tempfiles
+/log/*
+/tmp/*
