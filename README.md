@@ -6,6 +6,7 @@ This a PoC of using a dataset on email for semantic search on PostgreSQL DB with
 If you need to decompress the PostgreSQL database dump file (`email_pgsql.tar.bz2`), you can use the following command:
 
 ```sh
+# Download the archive here : https://drive.google.com/file/d/12cQml5ufAO9ts4MjIvOg1ayh2y_dkqEk/view?usp=sharing
 tar -xvjf email_pgsql.tar.bz2
 ```
 
